@@ -39,33 +39,35 @@ Business Questions Answered:
 
 Key Visualizations:
 
-- Loan Default % by Loan Grade
-![Loan Default by Grade](Credit Risk EDA/Key Visuals/loan_grade vs loan_default%.png)
-
-- Loan Default % by Loan Intent
-![Loan Intent Risk](sample_visuals/loan_intent_stacked_bar.png)
-
-- Income vs Loan Default Status
-![Income vs Default](sample_visuals/income_vs_default_violin.png)
-
-- Loan Interest Rate vs Default Status
-![Interest Rate vs Default](sample_visuals/interest_rate_violin.png)
-
-- Loan Default % by Home Ownership  
-![Home Ownership Risk](sample_visuals/home_ownership_stacked_bar.png)
-
-- Loan Default Count by Income + Loan Bracket  
-![Income + Loan Combo Risk](sample_visuals/income_loan_combo_countplot.png)
+- Numerical Columns Data Distribution
+![KDE Plots](sample_visuals/numerical_cols_distribution.png)
 
 - Correlation Heatmap  
-![Correlation Heatmap](sample_visuals/correlation_heatmap.png)
+![Correlation Heatmap](sample_visuals/correlation.png)
 
 - Box Plots for Outlier Detection  
-![Outlier Box Plots](sample_visuals/outlier_boxplots.png)
+![Outlier Box Plots](sample_visuals/box_plots.png)
+
+- Loan Default % by Loan Grade
+![Loan Default by Grade](sample_visuals/loan_grade_vs_loan_defaults.png)
+
+- Loan Default % by Loan Intent
+![Loan Intent Risk](sample_visuals/loan_intent_vs_loan_defaults.png)
+
+- Income vs Loan Default Status
+![Income vs Default](sample_visuals/income_vs_loan_defaults.png)
+
+- Loan Interest Rate vs Default Status
+![Interest Rate vs Default](sample_visuals/loan_interest_rates_vs_loan_defaults.png)
+
+- Loan Default % by Home Ownership  
+![Home Ownership Risk](sample_visuals/home_ownership_vs_loan_defaults.png)
+
+- Loan Default Count by Income + Loan Bracket  
+![Income + Loan Combo Risk](sample_visuals/loan_defaults_by_income_and_loan_brackets.png)
 
 - Normality Test (Q-Q + Probability Plot)  
-![Normality Test](sample_visuals/normality_test_income.png)
-
+![Normality Test](sample_visuals/normality_test.png)
 
 
 
@@ -89,4 +91,5 @@ Tools:
 Next Steps:
 
 - Convert notebook into a Streamlit or Power BI dashboard
+
 - Package results into a stakeholder-facing report

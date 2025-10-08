@@ -41,47 +41,42 @@ Business Questions Answered:
 
 Key Visualizations:
 
-- Numerical Columns Data Distribution
+- Numerical Columns Data Distribution:
 ![KDE Plots](sample_visuals/numerical_cols_distribution.png)
 
-- Correlation Heatmap  
+- Correlation Heatmap:
 ![Correlation Heatmap](sample_visuals/correlation.png)
 
-- Box Plots for Outlier Detection  
+- Box Plots for Outlier Detection:
 ![Outlier Box Plots](sample_visuals/box_plots.png)
 
-- Loan Default % by Loan Grade
-![Loan Default by Grade](sample_visuals/loan_grade_vs_loan_defaults.png)
-
-- Loan Default % by Loan Intent
-![Loan Intent Risk](sample_visuals/loan_intent_vs_loan_defaults.png)
-
-- Income vs Loan Default Status
-![Income vs Default](sample_visuals/income_vs_loan_defaults.png)
-
-- Loan Interest Rate vs Default Status
-![Interest Rate vs Default](sample_visuals/loan_interest_rates_vs_loan_defaults.png)
-
-- Loan Default % by Home Ownership  
-![Home Ownership Risk](sample_visuals/home_ownership_vs_loan_defaults.png)
-
-- Loan Default Count by Income + Loan Bracket  
-![Income + Loan Combo Risk](sample_visuals/loan_defaults_by_income_and_loan_brackets.png)
-
-- Normality Test (Q-Q + Probability Plot)  
+- Normality Test (Q-Q + Probability Plot):
 ![Normality Test](sample_visuals/normality_test.png)
 
+- Loan Default % by Loan Grade:
+![Loan Default by Grade](sample_visuals/loan_grade_vs_loan_defaults.png)
+
+- Loan Default % by Loan Intent:
+![Loan Intent Risk](sample_visuals/loan_intent_vs_loan_defaults.png)
+
+- Income vs Loan Default Status:
+![Income vs Default](sample_visuals/income_vs_loan_defaults.png)
+
+- Loan Interest Rate vs Default Status:
+![Interest Rate vs Default](sample_visuals/loan_interest_rates_vs_loan_defaults.png)
+
+- Loan Default % by Home Ownership:
+![Home Ownership Risk](sample_visuals/home_ownership_vs_loan_defaults.png)
+
+- Loan Default Count by Income + Loan Bracket:  
+![Income + Loan Combo Risk](sample_visuals/loan_defaults_by_income_and_loan_brackets.png)
 
 
 Strategic Takeaways:
 
 - High-risk flags: Medical intent, Grades E–G, renters, income < ₹35K, interest rate > 12%, loan-to-income ratio > 0.4
-
 - Safe zones: Grade A, Venture intent, homeowners, income > ₹45K
-
 - Underwriting recommendation: Apply stricter scrutiny to flagged combinations
-
-
 
 Tools:
 
@@ -89,9 +84,7 @@ Tools:
 - Jupyter Notebook
 
 
-
 Next Steps:
 
 - Convert notebook into a Streamlit or Power BI dashboard
-
 - Package results into a stakeholder-facing report

@@ -6,11 +6,15 @@
 
 This project explores credit risk patterns across 32,000 loan applicants using statistical hypothesis testing, segmentation logic, and audit-safe data preprocessing — without relying on machine learning. The goal is to uncover actionable insights for underwriting teams and risk analysts.
 
+---
+
 ## Dataset:
 
 - **Source**: [Kaggle Credit Risk Dataset](https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
 - **Size**: 32,000 rows
 - **Features**: Applicant demographics, loan details, credit history, repayment status
+
+---
 
 ## Analytical Approach:
 

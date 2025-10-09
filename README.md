@@ -60,6 +60,21 @@ Key steps include:
 
 ---
 
+## Statistical Test Summary by Risk Factor:
+
+| Risk Factor                     | Test Used       | Statistically Significant? | Insights|
+|--------------------------------|------------------|-----------------------------|--------------------------------------------------------------------------|
+| Age Group                      | Chi-Squared      | ❌ No                        | Default rates are similar across age brackets.                           |
+| Loan Intent                    | Chi-Squared      | ✅ Yes                       | Medical loans have highest default rates; Ventures have the lowest.     |
+| Loan Grade                     | Chi-Squared      | ✅ Yes                       | Grades E, F, and G show significant risk; Grade A is the safest.         |
+| Home Ownership (Own vs Rent)   | Chi-Squared      | ✅ Yes                       | Renters default more than owners.                                        |
+| Income Level                   | Mann-Whitney U   | ✅ Yes                       | Defaulters earn ~28–35K; non-defaulters earn ~40–45K.                    |
+| Income + Loan Combo            | Mann-Whitney U   | ✅ Yes                       | 60% default rate in low-income + high-loan group.                        |
+| Loan Interest Rate             | Mann-Whitney U   | ✅ Yes                       | Defaulters average ~15% interest; non-defaulters ~7.5%.                  |
+| Loan-to-Income Ratio           | Mann-Whitney U   | ✅ Yes                       | Higher loan-to-income ratios correlate with loan default.               |
+
+---
+
 ## Key Visualizations:
 
 <h3 align="center"><strong>Numerical Columns Data Distribution</strong></h3>

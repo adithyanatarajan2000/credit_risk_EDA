@@ -60,6 +60,18 @@ Key steps include:
 
 ---
 
+## Feature Engineering for Hypothesis Testing:
+
+To enable statistically valid categorical analysis, three continuous variables were discretized into meaningful brackets:
+
+- **Age Brackets**: Created using `pd.cut()` to segment applicants into different age groups (Young Adults, Middle Age and Seniors)
+- **Loan Amount Brackets**: Created using `pd.qcut()` to divide loan amounts into 3 evenly distributed groups (Low, Medium and High Loan Amount)
+- **Income Brackets**: Created using `pd.qcut()` to segment income levels into 3 evenly distributed groups (Low, Medium and High Income)
+
+These discretized features were used in Chi-Squared tests to assess default risk across discrete categories, ensuring statistical validity and interpretability.
+
+---
+
 ## Statistical Test Summary by Risk Factor:
 
 | Risk Factor                     | Test Used       | Statistically Significant? | Insights|

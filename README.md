@@ -82,7 +82,7 @@ These discretized features were used in Chi-Squared tests to assess default risk
 | Home Ownership (Own vs Rent)   | Chi-Squared      | ✅ Yes                       | Renters default more than owners.                                        |
 | Income Level                   | Mann-Whitney U   | ✅ Yes                       | Defaulters earn ~28–35K; non-defaulters earn ~40–45K.                    |
 | Income + Loan Combo            | Mann-Whitney U   | ✅ Yes                       | 60% default rate in low-income + high-loan group.                        |
-| Loan Interest Rate             | Mann-Whitney U   | ✅ Yes                       | Defaulters average ~15% interest; non-defaulters ~7.5%.                  |
+| Loan Interest Rate             | Mann-Whitney U   | ✅ Yes                       | Defaulters average ~15% interest; non-defaulters average ~7.5%.                  |
 | Loan-to-Income Ratio           | Mann-Whitney U   | ✅ Yes                       | Higher loan-to-income ratios correlate with loan default.               |
 
 ---

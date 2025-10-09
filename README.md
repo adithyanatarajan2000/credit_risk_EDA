@@ -60,6 +60,20 @@ Key steps include:
 
 ---
 
+## Feature Diagnostics:
+
+Before applying the hypothesis tests, each feature was evaluated to ensure statistical validity.
+
+- **Normality Checks:**  
+  - Visual inspection using **Q-Q plots** and **Probability plots**.
+  - Formal testing via **Anderson-Darling test** to assess distribution type.
+  - Results confirmed non-normality in key features like **income, loan amount, and loan interest rates** - supporting the use of non-parametric tests (e.g., Mann-Whitney U)
+
+- **Categorical Test Assumptions:**  
+  - All categorical variables used in the chi-squared tests were validated to meet the underlying assumption of expected frequencies ≥ 5 in every contingency cell.
+  
+---
+
 ## Feature Engineering for Hypothesis Testing:
 
 To enable statistically valid categorical analysis, three continuous variables were discretized into meaningful brackets:

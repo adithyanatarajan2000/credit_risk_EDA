@@ -70,7 +70,7 @@ Before applying the hypothesis tests, each feature was evaluated to ensure stati
   - Results confirmed non-normality in key features like **income, loan amount, and loan interest rates** - supporting the use of non-parametric tests (e.g., Mann-Whitney U)
 
 - **Categorical Test Assumptions:**  
-  - All categorical variables used in the chi-squared tests were validated to meet the underlying assumption of expected frequencies ≥ 5 in every contingency cell.
+  - All categorical variables used in the chi-squared tests were validated to meet the underlying assumption of **Expected Frequencies ≥ 5** in every contingency cell.
   
 ---
 

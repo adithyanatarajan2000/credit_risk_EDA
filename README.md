@@ -37,13 +37,13 @@ This project explores credit risk patterns across 32,581 loan applicants using s
 
 Key steps include:
 
-- **Null & Outlier Handling**: Median imputation by loan grade, IQR-based capping  
-- **Distribution Diagnostics**: KDE plots, Q-Q plots, Anderson-Darling tests  
-- **Segmentation**: Income and loan amount discretized into quantiles  
+- **Null & Outlier Handling**: Median imputation by loan grade, IQR-based capping.  
+- **Distribution Diagnostics**: KDE plots, Q-Q plots, Anderson-Darling tests.
+- **Segmentation**: Income and loan amount discretized into quantiles.
 - **Hypothesis Testing**:
-  - Chi-Squared Test for categorical relationships
-  - Mann-Whitney U Test for non-parametric numeric comparisons
-  - CLT reasoning applied where appropriate
+  - Chi-Squared Test for categorical relationships.
+  - Mann-Whitney U Test for non-parametric numeric comparisons.
+  - CLT reasoning applied where appropriate.
  
 ---
 
@@ -151,9 +151,9 @@ Key steps include:
 
 ## Strategic Takeaways:
 
-- **High-risk flags**: Medical intent, Grades E–G, renters, income < ₹35K, interest rate > 12%, loan-to-income ratio > 0.4  
+- **High Risk Flags**: Medical intent, Grades E – G, renters, income < ₹35K, interest rate > 12%, loan-to-income ratio > 0.4  
 - **Safe zones**: Grade A, Venture intent, homeowners, income > ₹45K  
-- **Underwriting recommendation**: Apply stricter scrutiny to flagged combinations
+- **Underwriting team recommendation**: Apply stricter scrutiny to flagged combinations
 
 ---
 

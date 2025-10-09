@@ -1,6 +1,6 @@
 # Credit Risk EDA
 
-**Statistical Analysis of 32K Loan Applications**
+**Statistical Analysis of 32.5K Loan Applications**
 
 ## Project Overview:
 

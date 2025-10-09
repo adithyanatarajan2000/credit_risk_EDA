@@ -1,4 +1,4 @@
-# Credit Risk Underwriting Insights EDA
+# Loan Portfolio Risk Assessment: Identifying High-Impact Default Drivers
 
 **Statistical Analysis of 32.5K Loan Applications**
 
@@ -192,7 +192,7 @@ These discretized features were used in Chi-Squared tests to assess default risk
 
 ## Next Steps:
 
-- Convert notebook into a Streamlit or Power BI dashboard  
-- Package results into a stakeholder-facing report
+- Convert notebook into a Streamlit or Power BI dashboard for non-technical users to interactively explore risk factors.
+- Package results into a stakeholder-facing reports.
 
 ---

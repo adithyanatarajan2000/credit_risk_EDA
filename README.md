@@ -16,7 +16,7 @@ This project explores credit risk patterns across 32,581 loan applicants using s
 <h3 align="left"><strong>Features:</strong></h3>
 <br>
 
-| **Column Name**           | **Description**                                              |
+| **Feature Name**           | **Description**                                             |
 |---------------------------|--------------------------------------------------------------|
 | person_age                | Applicant’s age in years                                     |
 | person_income             | Annual income of the applicant                               |

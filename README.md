@@ -69,7 +69,7 @@ Before applying the hypothesis tests, each feature was evaluated to ensure stati
   - Formal testing via **Anderson-Darling test** to assess distribution type.
   - Results confirmed non-normality in key features like **income, loan amount, and loan interest rates** - supporting the use of non-parametric tests (e.g., Mann-Whitney U)
 
-- **Categorical Test Assumptions:**  
+- **Categorical Features Checks:**  
   - All categorical variables used in the chi-squared tests were validated to meet the underlying assumption of **Expected Frequencies ≥ 5** in every contingency cell.
   
 ---

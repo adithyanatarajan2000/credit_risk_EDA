@@ -27,6 +27,8 @@ Key steps include:
   - Chi-Squared Test for categorical relationships
   - Mann-Whitney U Test for non-parametric numeric comparisons
   - CLT reasoning applied where appropriate
+ 
+---
 
 ## Business Questions Answered:
 
@@ -38,6 +40,8 @@ Key steps include:
 - Does low income + high loan combo increase risk?
 - Do higher interest rates correlate with default?
 - Does loan-to-income ratio affect default risk?
+
+---
 
 ## Key Visualizations:
 
@@ -72,11 +76,15 @@ Key steps include:
   ![Income + Loan Combo Risk](sample_visuals/loan_defaults_by_income_and_loan_brackets.png)
 
 
+---
+
 ## Strategic Takeaways:
 
 - **High-risk flags**: Medical intent, Grades E–G, renters, income < ₹35K, interest rate > 12%, loan-to-income ratio > 0.4  
 - **Safe zones**: Grade A, Venture intent, homeowners, income > ₹45K  
 - **Underwriting recommendation**: Apply stricter scrutiny to flagged combinations
+
+---
 
 ## Tools Used:
 

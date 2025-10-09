@@ -4,7 +4,7 @@
 
 ## Project Overview:
 
-This project explores credit risk patterns across 32,000 loan applicants using statistical hypothesis testing, segmentation logic, and audit-safe data preprocessing. The goal is to uncover actionable insights for underwriting teams and risk analysts.
+This project explores credit risk patterns across 32,581 loan applicants using statistical hypothesis testing, segmentation logic, and audit-safe data preprocessing. The goal is to uncover actionable insights for underwriting teams and risk analysts.
 
 ---
 
@@ -12,7 +12,22 @@ This project explores credit risk patterns across 32,000 loan applicants using s
 
 - **Source**: [Kaggle Credit Risk Dataset](https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
 - **Size**: 32,581 rows and 12 columns
-- **Features**: Applicant demographics, loan details, credit history, repayment status
+- **Features**:
+
+| Column Name               | Description                                                  |
+|---------------------------|--------------------------------------------------------------|
+| person_age                | Applicant’s age in years.                                    |
+| person_income             | Annual income of the applicant                               |
+| person_home_ownership     | Housing status (RENT, OWN, MORTGAGE, OTHER)                  |
+| person_emp_length         | Employment length in years                                   |
+| loan_intent               | Purpose of the loan (EDUCATION, MEDICAL, VENTURE, etc.)      |
+| loan_grade                | Credit grade assigned to the loan (A–G)                      |
+| loan_amnt                 | Total loan amount requested                                  |
+| loan_int_rate             | Interest rate applied to the loan                            |
+| loan_status               | Whether the loan was defaulted (0 = No, 1 = Yes)             |
+| loan_percent_income       | Loan amount as a percentage of income                        |
+| cb_person_default_on_file | Prior default history on credit file (Y/N)                   |
+| cb_person_cred_hist_length| Length of credit history in years                            |
 
 ---
 

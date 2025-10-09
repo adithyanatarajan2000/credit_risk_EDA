@@ -1,4 +1,4 @@
-# Credit Risk EDA
+# Credit Risk Underwriting Insights EDA
 
 **Statistical Analysis of 32.5K Loan Applications**
 
@@ -78,9 +78,9 @@ Before applying the hypothesis tests, each feature was evaluated to ensure stati
 
 To enable statistically valid categorical analysis, three continuous variables were discretized into meaningful brackets:
 
-- **Age Brackets**: Created using `pd.cut()` to segment applicants into different age groups (Young Adults, Middle Age and Seniors)
-- **Loan Amount Brackets**: Created using `pd.qcut()` to divide loan amounts into 3 evenly distributed groups (Low, Medium and High Loan Amount)
-- **Income Brackets**: Created using `pd.qcut()` to segment income levels into 3 evenly distributed groups (Low, Medium and High Income)
+- **Age Brackets**: Created using `pd.cut()` to segment applicants into different age groups (Young Adults, Middle Age and Seniors) which aligns with standard demographic risk profiling.
+- **Loan Amount Brackets**: Created using `pd.qcut()` to divide loan amounts into 3 groups (Low, Medium and High Loan Amount). Since, this is a numerical column, **qcut** was chosen over **cut** to ensure that the samples are evenly distributed into 3 equal sized groups based on quantiles.
+- **Income Brackets**: Created using `pd.qcut()` to segment income levels into 3 groups (Low, Medium and High Income). Since, this is a numerical column, **qcut** was chosen over **cut** to ensure that the samples are evenly distributed into 3 equal sized groups based on quantiles.
 
 These discretized features were used in Chi-Squared tests to assess default risk across discrete categories, ensuring statistical validity and interpretability.
 

@@ -1,4 +1,4 @@
-# Loan Portfolio Credit Risk Assessment: Identification of High-Impact Default Drivers
+## Loan Portfolio Credit Risk Assessment: Identification of High-Impact Default Drivers
 
 **Statistical Analysis of 32.5K Loan Applications**
 

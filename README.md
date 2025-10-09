@@ -1,4 +1,4 @@
-## Credit Risk Driver Analysis: Policy Insights and Default Segmentation
+## Credit Risk Segmentation & Default Pattern Analysis
 
 **Statistical Analysis of 32.5K Loan Applications**
 

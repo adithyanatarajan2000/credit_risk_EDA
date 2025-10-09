@@ -12,16 +12,18 @@ This project explores credit risk patterns across 32,581 loan applicants using s
 
 - **Source**: [Kaggle Credit Risk Dataset](https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
 - **Size**: 32,581 rows and 12 columns
-- **Features**:
 
-| Column Name               | Description                                                  |
+<h3 align="center"><strong>Features:</strong></h3>
+<br>
+
+| **Column Name**           | **Description**                                              |
 |---------------------------|--------------------------------------------------------------|
-| person_age                | Applicant’s age in years.                                    |
+| person_age                | Applicant’s age in years                                     |
 | person_income             | Annual income of the applicant                               |
 | person_home_ownership     | Housing status (RENT, OWN, MORTGAGE, OTHER)                  |
 | person_emp_length         | Employment length in years                                   |
 | loan_intent               | Purpose of the loan (EDUCATION, MEDICAL, VENTURE, etc.)      |
-| loan_grade                | Credit grade assigned to the loan (A–G)                      |
+| loan_grade                | Credit grade assigned to the loan (A – G)                    |
 | loan_amnt                 | Total loan amount requested                                  |
 | loan_int_rate             | Interest rate applied to the loan                            |
 | loan_status               | Whether the loan was defaulted (0 = No, 1 = Yes)             |

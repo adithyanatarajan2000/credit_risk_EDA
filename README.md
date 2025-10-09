@@ -13,7 +13,7 @@ This project explores credit risk patterns across 32,581 loan applicants using s
 - **Source**: [Kaggle Credit Risk Dataset](https://www.kaggle.com/datasets/laotse/credit-risk-dataset)
 - **Size**: 32,581 rows and 12 columns
 
-<h3 align="center"><strong>Features:</strong></h3>
+<h3 align="left"><strong>Features:</strong></h3>
 <br>
 
 | **Column Name**           | **Description**                                              |

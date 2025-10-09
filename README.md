@@ -177,8 +177,8 @@ These discretized features were used in Chi-Squared tests to assess default risk
 
 ## Strategic Takeaways:
 
-- **High Risk Flags**: Medical intent, Grades E – G, renters, income < ₹35K, interest rate > 12%, loan-to-income ratio > 0.4  
-- **Safe zones**: Grade A, Venture intent, homeowners, income > ₹45K  
+- **High Risk Flags**: Medical intent, Grades E – G, renters, income < 35K, interest rate > 12%, loan-to-income ratio > 0.4  
+- **Safe zones**: Grade A, Venture intent, homeowners, income > 45K  
 - **Underwriting team recommendation**: Apply stricter scrutiny to flagged combinations
 
 ---
@@ -192,7 +192,7 @@ These discretized features were used in Chi-Squared tests to assess default risk
 
 ## Next Steps:
 
-- Convert notebook into a Streamlit or Power BI dashboard for non-technical users to interactively explore risk factors.
+- Develop Power BI dashboard based on key findings, enabling Underwriting and Risk teams to dynamically explore high-risk segments (e.g., Medical intent, Loan Grade F/G) to facilitate proactive policy formulation and process improvement.
 - Package results into a stakeholder-facing reports.
 
 ---

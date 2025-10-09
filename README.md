@@ -77,6 +77,71 @@ Key steps include:
 
 
 ---
+---
+---
+---
+
+<p align="center"><strong>Numerical Columns Data Distribution</strong></p>
+<br>
+<p align="center">
+  <img src="sample_visuals/numerical_cols_distribution.png" alt="KDE Plots">
+</p>
+
+<p align="center"><strong>Correlation Heatmap</strong></p>
+<br>
+<p align="center">
+  <img src="sample_visuals/correlation.png" alt="Correlation Heatmap">
+</p>
+
+<p align="center"><strong>Box Plots for Outlier Detection</strong></p>
+<br>
+<p align="center">
+  <img src="sample_visuals/box_plots.png" alt="Outlier Box Plots">
+</p>
+
+<p align="center"><strong>Normality Test (Q-Q + Probability Plot)</strong></p>
+<br>
+<p align="center">
+  <img src="sample_visuals/normality_test.png" alt="Normality Test">
+</p>
+
+<p align="center"><strong>Loan Default % by Loan Grade</strong></p>
+<br>
+<p align="center">
+  <img src="sample_visuals/loan_grade_vs_loan_defaults.png" alt="Loan Default by Grade">
+</p>
+
+<p align="center"><strong>Loan Default % by Loan Intent</strong></p>
+<br>
+<p align="center">
+  <img src="sample_visuals/loan_intent_vs_loan_defaults.png" alt="Loan Intent Risk">
+</p>
+
+<p align="center"><strong>Income vs Loan Default Status</strong></p>
+<br>
+<p align="center">
+  <img src="sample_visuals/income_vs_loan_defaults.png" alt="Income vs Default">
+</p>
+
+<p align="center"><strong>Loan Interest Rate vs Default Status</strong></p>
+<br>
+<p align="center">
+  <img src="sample_visuals/loan_interest_rates_vs_loan_defaults.png" alt="Interest Rate vs Default">
+</p>
+
+<p align="center"><strong>Loan Default % by Home Ownership</strong></p>
+<br>
+<p align="center">
+  <img src="sample_visuals/home_ownership_vs_loan_defaults.png" alt="Home Ownership Risk">
+</p>
+
+<p align="center"><strong>Loan Default Count by Income + Loan Bracket</strong></p>
+<br>
+<p align="center">
+  <img src="sample_visuals/loan_defaults_by_income_and_loan_brackets.png" alt="Income + Loan Combo Risk">
+</p>
+
+---
 
 ## Strategic Takeaways:
 
